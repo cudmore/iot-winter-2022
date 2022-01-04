@@ -16,11 +16,11 @@ const char *ssid =  "NETGEAR49";   // name of your WiFi network
 const char *password =  "unevencello210"; // password of the WiFi network
 
 // Home Assistant Credentials
-const char *HA_USER = "homeassistant";
-const char *HA_PASS = "AeDahmaiboochushoekoozai0gai1Aighoo6ier7aup5Bohngaez3eitaeghae8S";
+//const char *HA_USER = "homeassistant";
+//const char *HA_PASS = "AeDahmaiboochushoekoozai0gai1Aighoo6ier7aup5Bohngaez3eitaeghae8S";
 
 // MQTT Network
-IPAddress broker(192,168,1,12); // IP address of your MQTT broker eg. 192.168.1.50
+IPAddress broker(192,168,1,31); // IP address of your MQTT broker eg. 192.168.1.50
 const byte SWITCH_PIN = 14;           // Pin to control the light with (button)
 const char *ID = "My_Huzzah_1";  // Name of our device, must be unique
 const char *TOPIC = "classroom/pushbutton1";  // Topic to subcribe to
@@ -53,7 +53,8 @@ void reconnect() {
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
     // Attempt to connect
-    if (client.connect(ID,HA_USER,HA_PASS)) {
+    //if (client.connect(ID,HA_USER,HA_PASS)) {
+    if (client.connect(ID)) {
       Serial.println("connected");
       Serial.print("Publishing to: ");
       Serial.println(TOPIC);

@@ -1,35 +1,37 @@
 Day 1
 Tue Jan 4
 
+    - Overview of course structure, syllabus, goals, and expectations
+    - Online surveys of students impression on the IOT
+    - Guage students expectations are desires for the course
     - Origins of the IOT
-    - Components that make up the IOT
-    - Examples of existing IOT
+    - Components that make up the IOT and some examples
     
 Day 2
 Thur Jan 6
-    - Review of components f the IOT
-    - A 6 level IOT framework
-    - Go over each example in the framework
-
+    - Case example: Ride sharing IOT
+    
 Day 3
 Tue Jan 11
-    - Technologies that have allowed and are driving the IOT
-    - What about personal data?
-
+    - Case examples: Scooter/Bike/Car sharing IOT
+    - Social and economic impact of IOT.
+        
 Day 4
 Thur Jan 13
 
-    - Technical details on microcontrolllers and sensors
-    - Build an example arduino system with a LED, potentiometer, light sensor, and speaker
-
+    - Review of components that make an IOT
+    - A 6 level framework for thinking about IOT systems
+    
 Day 5
 Tue Jan 18
 
-    - Lab I, students build simple sensors
+    - Smart Home IOT
+    
 
 Day 6
 Thur Jan 20
 
+    - Lab I, students build simple sensors
     - Lab II, students build simple sensors
 
 Day 7
